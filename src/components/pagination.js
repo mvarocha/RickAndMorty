@@ -5,8 +5,6 @@ function Pagination({ onChangePage, pageLimitValue }) {
 
   const [pageValue, setPageValue] = useState(1);
 
-  console.log(pageValue)
-
   function previous() {
     if (pageValue > 1) {
       setPageValue(pageValue - 1)
@@ -33,7 +31,6 @@ function Pagination({ onChangePage, pageLimitValue }) {
       <button onClick={next}>
         <FeatherIcon icon="arrow-right" />
       </button>
-
     </div>
   )
 }
