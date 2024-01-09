@@ -103,4 +103,7 @@
   background: #01b5cc;
   border: solid 3px #b2df2d;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
