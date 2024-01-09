@@ -107,3 +107,25 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 640px){
+  .logo{
+    width: 90%;
+  }
+
+  .search-container{
+    width: 90%;
+  }
+
+  .search{
+    width: 265px;
+  }
+  
+  .search-button{
+    width: 80px;
+  }
+
+  .character{
+    width: 250px;
+  }
+}
